@@ -18,4 +18,3 @@ class Cat
     @meow
   end
 end
-end
