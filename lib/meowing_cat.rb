@@ -10,8 +10,12 @@ class Cat
     @cat
   end
   
-  def meow(cat)
-    cat.meow
-    puts "meow"
+  def meow=(cat)
+    @meow = cat
+  end
+  
+  def meow 
+    @meow
+  end
 end
 end
