@@ -9,4 +9,8 @@ class Cat
   def new 
     @cat
   end
+  
+  def meow(cat)
+    cat.meow
+    puts "meow"
 end
